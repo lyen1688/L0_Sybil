@@ -63,7 +63,7 @@
         <h1>LayerZero 批量女巫查询</h1>
         <div class="info">
             <p>采用臭企鹅提供的216万地址，去重后135万个的数据，离线查询，查询不会提交到官方，不会被女巫！</p>
-            <p>查询结果显示中奖，既存在女巫列表中(被举报或最初女巫名单)，该列表后续还会更新！</p>
+            <p>查询结果显示中奖，就是存在女巫列表中(被举报或最初女巫名单)，该列表后续还会更新！</p>
             <p><a href="https://ybot.io" target="_blank">Runes符文批量铸造：ybot.io&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>（全网铸造成本最低，支持无限加速！）</p>
         </div>
         <div class="mb-3">
@@ -156,8 +156,8 @@
             });
 
             document.getElementById('total-summary').innerHTML = `
-                中奖数量：<span style="color: green;">${winningCount}</span> 
-                未中奖数量：<span style="color: red;">${losingCount}</span>
+                中奖数量：<span style="color: red;">${winningCount}</span> 
+                未中奖数量：<span style="color: green;">${losingCount}</span>
             `;
             // 在处理完所有地址后添加导出按钮
             if (endIndex >= addresses.length) {
